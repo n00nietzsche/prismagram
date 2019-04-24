@@ -5,8 +5,8 @@
 "prettier.disableLanguages": [
     "vue"
 ],
+
 "prettier.singleQuote": true,
 "prettier.stylelintIntegration": true,
 "prettier.arrowParens": false
-
 }

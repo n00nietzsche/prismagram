@@ -13,13 +13,18 @@
     "babel-core": "7.0.0-bridge.0",
     "dotenv": "^7.0.0",
     "eslint": "^5.16.0",
-    "graphql-yoga": "^1.17.4"
+    "graphql-tools": "^4.0.4",
+    "graphql-yoga": "^1.17.4",
+    "merge-graphql-schemas": "^1.5.8",
+    "morgan": "^1.9.1",
+    "prisma": "^1.31.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11",
-    "@babel/cli": "^7.0.0"
+    "@babel/cli": "^7.0.0",
+    "nodemon": "^1.18.11"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "deploy": "prisma deploy"
   }
 }
