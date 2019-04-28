@@ -7,6 +7,5 @@
 ],
 
 "prettier.singleQuote": true,
-"prettier.stylelintIntegration": true,
-"prettier.arrowParens": false
+"prettier.stylelintIntegration": true
 }
