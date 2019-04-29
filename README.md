@@ -13,8 +13,10 @@ intagram clone with Express + Prisma + React and React Native
 - [x] Search by location
 - [x] Follow User
 - [x] Unfollow User
-- [ ] See user profile
-- [ ] See the full photo
+- [x] Edit my profile
+- [x] See user profile
+- [x] See my profile
+- [x] See the full photo
 - [ ] Edit my profile
 - [ ] Upload a photo
 - [ ] Edit or Delete the photo

@@ -4,14 +4,13 @@ import logger from 'morgan';
 import schema from './schema';
 import './passport';
 import { authenticateJwt } from './passport';
+import { isAuthenticated } from './middlewares';
 
 const PORT = process.env.PORT || 4000;
 
 const server = new GraphQLServer({
   schema,
-  context: ({request}) => {
-    return ({request})
-  }
+  context: ({ request }) => ({ request, isAuthenticated })
 });
 // it contains express server
 // we can access to server like this : 'server.express'
