@@ -17,7 +17,12 @@ intagram clone with Express + Prisma + React and React Native
 - [x] See user profile
 - [x] See my profile
 - [x] See the full photo
-- [ ] Edit my profile
-- [ ] Upload a photo
-- [ ] Edit or Delete the photo
+- [x] Edit my profile
+- [x] Upload a photo
+- [x] Edit or Delete the photo
 - [ ] See the feed
+- [ ] See rooms
+- [ ] See room
+- [ ] Send private Message
+- [ ] Receive DM
+- [ ] Receive Message
